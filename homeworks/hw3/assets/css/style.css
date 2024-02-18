@@ -1,0 +1,48 @@
+html, body {
+    margin : 0;
+}
+#profile-pic {
+    border-radius:50%;
+    overflow: hidden
+}
+
+#follow-button {
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+#pictures .row .item {
+    width :120px;
+    height :120px;
+}
+
+#pictures .row .item {
+    margin-right:5px;
+    margin-left:5px;
+}
+
+#pictures .row {
+    margin-top:10px;
+}
+
+#navbar .navbar-item {
+    padding : 10px;
+}
+
+#pictures .row .item:hover {
+    opacity:0.2
+}
+
+#follow-button:active {
+    font-size:18px
+}
+
+#navbar div:hover {
+    opacity:0;
+}
+
+#pictures .row .item, #follow-button, #navbar div{
+    cursor:pointer
+}
